@@ -1,0 +1,57 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+
+.fr-pagination {float: right; margin: 20px 0; padding: 6px 0;}
+textarea
+{
+	min-height: 180px;
+}
+
+
+.gallery
+{
+	overflow: hidden;
+	
+}
+
+.gallery > div
+{
+	float: left;
+	width: 200px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+
+}
+
+.gallery > div img
+{
+	max-width: 90%;
+	height: auto;
+}
+
+#preview
+{
+	max-height: 300px;
+	background: #fff;
+	overflow: auto;
+	padding: 1em;
+	margin-top: 20px;
+	border: 1px solid ¨navy;
+}

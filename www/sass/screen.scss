@@ -1,0 +1,48 @@
+/* ----------------------------------------------------------------------------------------------------
+
+	 * SCSS by RJ
+
+---------------------------------------------------------------------------------------------------- */
+
+/* Internal
+---------------------------------------------------------------------------------------------------- */
+//@import "compass"; // the most important framework - internal via ruby
+//@import "rgbapng";
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/*  Helpers, mixins + function + own shortcuts css helper
+---------------------------------------------------------------------------------------------------- */
+// @import 'helpers/mixins'; // mixin collection
+// @import 'helpers/functions'; // function collection
+
+/* Partials - (typography, reset ...)
+ ---------------------------------------------------------------------------------------------------- */
+// @import 'partials/normalize'; // normalize reset
+// @import 'partials/bp5'; // HTMLBoilerPlate 5 - base
+// @import 'partials/vars'; // colors, width ...
+// @import 'partials/buttons'; // buttons - fun collection ;p
+// @import 'partials/forms'; // forms
+// @import 'partials/tables'; // tables
+// @import 'helpers/shortcuts'; // my own Vendor
+
+/* shortcuts, third party plugins
+---------------------------------------------------------------------------------------------------- */
+// @import 'vendor/fonts'; // modal window
+//@import "vendor/jquery.bxslider"; // slider
+// @import "vendor/jquery.fancybox"; // responsive
+@import 'vendor/magnific-popup/magnific-core'; //
+
+/* Main Layout + responsive
+---------------------------------------------------------------------------------------------------- */
+@import 'layout/sign'; // sign
+//@import 'layout/layout'; // main layout of concrete web
+@import 'layout/responsive'; // responsive version
+
+// rozcestnik - 1 stranka
+.Cover {
+    height: 698px;
+    background: url('../gfx/cover.jpg');
+}

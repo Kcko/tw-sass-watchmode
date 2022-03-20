@@ -1,0 +1,155 @@
+.Sign {
+    --goldColor: #bca563;
+    --starHeading: 40px;
+    --signHeading: 75px;
+    --buttonFont: 21px;
+    --inputHeight: 60px;
+    --signPaddingTop: 60px;
+    --signHeadingMargin: 50px;
+    --starSize: 55px;
+
+    padding-top: var(--signPaddingTop);
+    min-height: 100vh;
+    background: url(../gfx/bg-sign.jpg) no-repeat center top / cover;
+    display: flex;
+    font-family: 'Poppins';
+
+    &__Star {
+        color: #fff;
+        font-size: var(--starHeading);
+        font-weight: bold;
+        text-align: center;
+        color: var(--goldColor);
+        margin-bottom: 20px;
+
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+            width: var(--starSize);
+        }
+    }
+
+    &__Heading {
+        color: #fff;
+        font-size: var(--signHeading);
+        font-weight: 100;
+        text-align: center;
+        margin-bottom: var(--signHeadingMargin);
+    }
+
+    &__Inner {
+        width: 550px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    &__FormWrapper {
+        background: #fff;
+        box-shadow: 0 0 10px (#000, 0.35);
+    }
+
+    &__Form {
+        padding: 40px;
+    }
+
+    &__Infin {
+        padding: 30px;
+        background: #28302e;
+        text-align: center;
+        line-height: 1;
+    }
+}
+
+.SignInForm {
+    input {
+        background: #edf0fd;
+        color: #6e7dba;
+        text-transform: uppercase;
+        border-radius: 5px;
+        display: block;
+        height: var(--inputHeight);
+        line-height: var(--inputHeight);
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    input::placeholder {
+        color: #6e7dba;
+    }
+
+    button {
+        text-transform: uppercase;
+        background: #c8a955;
+        color: #fff;
+        border-radius: 30px;
+        display: inline-flex;
+        align-items: center;
+        height: var(--inputHeight);
+        line-height: var(--inputHeight);
+        padding-left: 40px;
+        padding-right: 40px;
+        font-weight: bold;
+        font-size: var(--buttonFont);
+
+        img {
+            margin-left: 20px;
+        }
+    }
+
+    input,
+    button {
+        border: 0;
+    }
+
+    > div {
+        margin-bottom: 10px;
+    }
+
+    &__Row3 {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .Sign {
+        --starHeading: 25px;
+        --signHeading: 45px;
+        --buttonFont: 18px;
+        --inputHeight: 50px;
+        --signPaddingTop: 20px;
+        --signHeadingMargin: 20px;
+        --starSize: 45px;
+
+        &__Infin {
+            padding: 20px;
+            img {
+                height: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .Sign {
+        --starHeading: 18px;
+        --signHeading: 28px;
+        --buttonFont: 16px;
+        --inputHeight: 40px;
+        --signPaddingTop: 10px;
+        --signHeadingMargin: 10px;
+        --starSize: 35px;
+
+        &__Infin {
+            padding: 10px;
+            img {
+                height: 25px;
+            }
+        }
+    }
+}

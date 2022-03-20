@@ -1,0 +1,213 @@
+*
+{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px/1.5 "Trebuchet MS", "Geneva CE", lucida, sans-serif;
+	color: #333;
+	background-color: #fff;
+	margin: 2em;
+}
+
+h1 {
+	font-size: 1.9em;
+	color: #3484D2;
+}
+
+h2 {
+	font-size: 1.2em;
+	color: #3484D2;
+}
+
+#content {
+
+	margin: 0 5px;
+}
+
+a {
+	color: #000080;
+}
+
+a.active
+{
+	background: #000080;
+	color: #fff;
+}
+
+#logged-in {
+	margin-top: 3em;
+	font-size: 90%;
+}
+
+div.flash {
+	color: black;
+	background: #FFFFDD;
+	border: 1px solid #FFD700;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+
+
+/*------------------------------------------------------------------*/
+
+
+table.grid {
+	padding: 0;
+	margin: 0;
+	border-collapse:collapse;
+
+}
+
+table.grid td, table.grid th {
+	background: #fff;
+	border: 1px solid #add4fb;
+	padding: 6px 6px 6px 12px;
+}
+
+table.grid th {
+	color: #7a7772;
+	background: #E4F1FC;
+	text-align: left;
+	font-weight: normal;
+	font-size: 80%;
+}
+
+table.grid .alt td {
+	background: #f8f8f0;
+}
+
+#frm-referenceForm th
+{
+	width: 120px;
+}
+
+
+/*------------------------------------------------------------------*/
+
+
+table
+{
+	width: 100%;
+}
+
+form {
+	
+	padding: .8em 1.6em;
+	background: #E4F1FC;
+	border: solid 2px #add4fb;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea, 
+form select
+ {
+	margin: 2px 0;
+	font-size: 100%;
+	padding: 4px 2px;
+	border: solid 1px #add4fb;
+	min-width: 200px;
+	width: 100%;
+	font-size: 95%;
+	font-family: Helvetica;
+}
+
+form textarea
+{
+	height: 250px;
+}
+
+form input.default {
+	font-weight: bold;
+	font-size: 105%;
+}
+
+
+
+form label {
+	width: 100px;
+	display: block;
+	text-align: right;
+	margin-right: 5px;
+	font-weight: normal;
+}
+
+form .required label {
+	font-weight: bold;
+}
+
+
+
+.paginator {
+	margin: 1em 0;
+	font-size: 90%;
+}
+
+.paginator a, .paginator span {
+	margin-right: 0.1em;
+	padding: 0.2em 0.5em;
+	color: #999999;
+}
+
+.paginator a {
+	border: 1px solid #9AAFE5;
+	text-decoration: none;
+	color: #105CB6;
+}
+
+.paginator span.button {
+	border: 1px solid #DDDDDD;
+}
+
+.paginator .current {
+	background: #2E6AB1;
+	border: 1px solid #2E6AB1;
+	color: white;
+	font-weight: bold;
+}
+
+
+.active
+{
+	color: red;
+}
+
+.gallery
+{
+	overflow: hidden;
+	
+}
+
+.gallery > div
+{
+	float: left;
+	width: 200px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+
+}
+
+.gallery > div img
+{
+	max-width: 90%;
+	height: auto;
+}
+
+#preview
+{
+	max-height: 300px;
+	background: #fff;
+	overflow: auto;
+	padding: 1em;
+	margin-top: 20px;
+	border: 1px solid ¨navy;
+}
+
+table td, table th
+{
+	vertical-align: top;
+}
